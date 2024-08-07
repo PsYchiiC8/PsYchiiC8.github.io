@@ -34,7 +34,7 @@ function Projects() {
 
                     <tr>  
                         <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
-                            <b style={{fontSize: '20px'}}>CSE3150 Final Project- Flight Simulator</b>
+                            <b style={{fontSize: '20px'}}>CSE3150 Final Project- Airline Reservation System</b>
 
                             <br></br>
 
@@ -50,7 +50,7 @@ function Projects() {
                     <tr>
                         <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
                             <p>
-                                Bruh
+                                
                             </p>
                         </td>
                     </tr>
