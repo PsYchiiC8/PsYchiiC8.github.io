@@ -3,3 +3,6 @@
 
 # Ignore build artifacts
 ./build/
+
+# Ignore system-specific files
+.DS_Store
