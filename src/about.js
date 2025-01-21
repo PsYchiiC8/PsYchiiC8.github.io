@@ -68,7 +68,8 @@ function About() {
                 </table>
 
                 {/* Resume */}
-                <p class = " ">Download or View My Resume <a href="/Resume.pdf" target = "_blank"> Here </a> </p>
+                <p class=" ">Download or View My Resume <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Here</a></p>
+
 
             </body>
         </div>
