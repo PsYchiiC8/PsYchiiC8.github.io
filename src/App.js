@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,10 +9,10 @@ function App() {
         <a class="right" href="/">Home</a>
         
         <a class="left" href="https://www.linkedin.com/in/kevin-huang-002149231" target="_blank">
-        <img src="/linkedin.png" height="42px" alt="LinkedIn"></img></a>
+        <img className="icon" src="/linkedin.png" height="42px" alt="LinkedIn"></img></a>
         
         <a class="left" href="mailto:kevin.3.huang@uconn.edu" target="_blank">
-        <img src="/mail.png" height="42px" alt="Email"></img></a>
+        <img className="icon" src="/mail.png" height="42px" alt="Email"></img></a>
       </nav>
       
       <div className="body">
