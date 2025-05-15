@@ -2,29 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <a class="right" href="/about">About</a>
-        <a class="right" href="/projects">Projects</a>
-        <a class="right" href="/">Home</a>
-        
-        <a class="left" href="https://www.linkedin.com/in/kevin-huang-002149231" target="_blank">
-        <img className="icon" src="/linkedin.png" height="42px" alt="LinkedIn"></img></a>
-        
-        <a class="left" href="mailto:kevin.3.huang@uconn.edu" target="_blank">
-        <img className="icon" src="/mail.png" height="42px" alt="Email"></img></a>
-      </nav>
-      
-      <div className="body">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        
+    <div className="body">
+
         <h1 class="home">Welcome to My Developer Page</h1>
         
         <br/>
@@ -47,8 +26,7 @@ function App() {
         </p>
 
       </div>
-    
-    </div>
+
   );
 }
 
