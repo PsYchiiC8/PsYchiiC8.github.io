@@ -97,6 +97,13 @@ h1.home{
   object-fit: cover;
 }
 
+.connect{
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
 .App {
   text-align: center;
 }

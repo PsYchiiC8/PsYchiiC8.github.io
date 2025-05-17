@@ -2,66 +2,120 @@ import './App.css';
 
 function About() {
   return (
-    <div className="App">
-      <h1>About Me</h1>
+    <div>
+        <div className="App">
+            <h1>About Me</h1>
 
-      <table style={{ width: '100%', paddingTop: '10px' }}>
-        <tbody>
-          <tr>
-            <td style={{ width: '40%', paddingLeft: '330px' }}>
-              <img src="/favicon.ico" className="profile" alt="Picture of me" />
-            </td>
-            <td style={{ width: '100%', paddingRight: '330px', lineHeight: '30px' }}>
-              <p>
-                My name is Kevin Huang and I am a senior attending the University of Connecticut with an expected
-                graduation date in May 2025. I am a first-gen student majoring in Computer Science looking to
-                potentially have a concentration in Software Design and Development with a minor in Mathematics. I
-                have many interests including—but not limited to—Artificial Intelligence and Robotics.
-                <br />
-                I am considering completing a Masters degree in Computer Science and potentially looking to do
-                research.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            <table style={{ width: '100%', paddingTop: '10px' }}>
+                <tbody>
+                    <tr>
+                        <td style={{ width: '40%', paddingLeft: '330px' }}>
+                            <img className="icon" src="/linkedin.png" height="42px" alt="LinkedIn" />
+                        </td>
 
-      <h2>Skills</h2>
-        <ul className="indented">
-            <li className="p">Programming: Python, Java, C/C++</li>
-            <li>Front End: HTML/CSS, ReactJS, UI/UX</li>
-            <li>Other: Github, Linux/Windows, AI/ML, Time Management</li>
-            <li>English</li>
-            <li>Chinese (Mandarin)</li>
-            <li>Microsoft Suite and similar applications: Word, PowerPoint, and Excel</li>
-            <li>Other: Communication, Teamwork, Agile</li>
-        </ul>
+                        <td style={{ width: '100%', paddingRight: '330px', lineHeight: '30px' }}>
+                            <p textAlign="left">
+                                My name is Kevin Huang and I am a recent graduate from the University of Connecticut with a
+                                Bachelor of Science in Computer Science. I am looking for full-time opportunities in 
+                                Software Development and Engineering, Data Science/Analysis, or AI/ML. I also have experience or 
+                                coursework in Cloud Computing (AWS), Big Data Analytics, and more.
+                                <br /><br />
+                                At this time, I have enrolled in the Master of Science in Computer Science program at the 
+                                University of Connecticut and I look further my understanding of Artificial Intelligence and Machine Learning.
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
+        <div className="indented">
+            <h2>Skills</h2>
 
-      <h3>Connect With Me!</h3>
-      <table style={{ width: '100%', paddingTop: '10px' }}>
-        <tbody>
-          <tr>
-            <td style={{ width: '50%', paddingLeft: '360px' }}>
-              <a className="left" href="https://www.linkedin.com/in/kevin-huang-002149231" target="_blank" rel="noopener noreferrer">
-                <img src="/linkedin.png" height="42px" alt="LinkedIn" />
-              </a>
-            </td>
-            <td style={{ width: '100%', paddingRight: '360px' }}>
-              <a className="left" href="mailto:kevin.3.huang@uconn.edu" target="_blank" rel="noopener noreferrer">
-                <img src="/mail.png" height="42px" alt="Email" />
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            <table style={{ width: '100%', paddingTop: '10px' }}>
+                <tbody>
+                    <tr>
+                        <td style={{ width: '50%', paddingLeft: '200px' }}>
 
-      <p className=" ">
-        Download or View My Resume{' '}
-        <a href="/Kevin_Huang_Resume.pdf" target="_blank" rel="noopener noreferrer">
-          Here
-        </a>
-      </p>
+                            <ul className="indented">
+                                <li className="p">
+                                    Programming:
+                                    <ul>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>C/C++</li>
+                                    <li>Cloud Computing (AWS)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Front End:
+                                    <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>ReactJS</li>
+                                    <li>UI/UX</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Other:
+                                    <ul>
+                                    <li>GitHub</li>
+                                    <li>Linux/Windows</li>
+                                    <li>AI/ML</li>
+                                    <li>Time Management</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+
+                        <td style={{ width: '50%', paddingRight: '200px', lineHeight: '30px' }}>
+
+                            <ul className='indented'>
+                                <li>
+                                    Microsoft Suite and similar applications:
+                                    <ul>
+                                    <li>Word</li>
+                                    <li>PowerPoint</li>
+                                    <li>Excel</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Other:
+                                    <ul>
+                                    <li>Communication</li>
+                                    <li>Teamwork</li>
+                                    <li>Agile</li>
+                                    <li>English</li>
+                                    <li>Chinese (Mandarin)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Connect With Me!</h3>
+
+            <a href="https://www.linkedin.com/in/kevin-huang-002149231" target="_blank" rel="noopener noreferrer">
+                <img className="connect" src="/linkedin.png" height="42px" alt="LinkedIn" />
+            </a>
+
+            <a href="mailto:kevin.3.huang@uconn.edu" target="_blank" rel="noopener noreferrer">
+                <img className="connect" src="/mail.png" height="42px" alt="LinkedIn" />
+            </a>
+
+            <a href="https://github.com/PsYchiiC8" target="_blank" rel="noopener noreferrer">
+                <img className="connect" src="/github.png" height="42px" alt="GitHub" />
+            </a>
+            
+
+            <p>
+                Download or View My Resume{' '}
+                <a href="/Kevin_Huang_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                Here
+                </a>
+            </p>
+        </div>
     </div>
   );
 }
