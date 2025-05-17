@@ -57,20 +57,19 @@ function About() {
                                     <li>UI/UX</li>
                                     </ul>
                                 </li>
+                            </ul>
+                        </td>
+
+                        <td style={{ width: '50%', paddingRight: '200px'}}>
+
+                            <ul className='indented'>
                                 <li>
                                     Other:
                                     <ul>
                                     <li>GitHub</li>
-                                    <li>Linux/Windows</li>
                                     <li>AI/ML</li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </td>
-
-                        <td style={{ width: '50%', paddingRight: '200px', lineHeight: '30px' }}>
-
-                            <ul className='indented'>
                                 <li>
                                     Microsoft Suite and similar applications:
                                     <ul>
@@ -82,8 +81,6 @@ function About() {
                                 <li>
                                     Other:
                                     <ul>
-                                    <li>Communication</li>
-                                    <li>Teamwork</li>
                                     <li>Agile</li>
                                     <li>English</li>
                                     <li>Chinese (Mandarin)</li>
