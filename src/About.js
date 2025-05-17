@@ -63,7 +63,6 @@ function About() {
                                     <li>GitHub</li>
                                     <li>Linux/Windows</li>
                                     <li>AI/ML</li>
-                                    <li>Time Management</li>
                                     </ul>
                                 </li>
                             </ul>
