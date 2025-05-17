@@ -9,11 +9,11 @@ function About() {
             <table style={{ width: '100%', paddingTop: '10px' }}>
                 <tbody>
                     <tr>
-                        <td style={{ width: '40%', paddingLeft: '330px' }}>
-                            <img className="icon" src="/linkedin.png" height="42px" alt="LinkedIn" />
+                        <td style={{ width: '40%', paddingLeft: '300px' }}>
+                            <img className="profile" src="/Me.jpeg" height="42px" alt="LinkedIn" />
                         </td>
 
-                        <td style={{ width: '100%', paddingRight: '330px', lineHeight: '30px' }}>
+                        <td style={{ width: '100%', paddingRight: '300px', lineHeight: '30px' }}>
                             <p textAlign="left">
                                 My name is Kevin Huang and I am a recent graduate from the University of Connecticut with a
                                 Bachelor of Science in Computer Science. I am looking for full-time opportunities in 
