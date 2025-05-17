@@ -43,18 +43,18 @@ function About() {
                                 <li className="p">
                                     Programming:
                                     <ul>
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>C/C++</li>
-                                    <li>Cloud Computing (AWS)</li>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>C/C++</li>
+                                        <li>Cloud Computing (AWS)</li>
                                     </ul>
                                 </li>
                                 <li>
                                     Front End:
                                     <ul>
-                                    <li>HTML/CSS</li>
-                                    <li>ReactJS</li>
-                                    <li>UI/UX</li>
+                                        <li>HTML/CSS</li>
+                                        <li>ReactJS</li>
+                                        <li>UI/UX</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -66,24 +66,24 @@ function About() {
                                 <li>
                                     Other:
                                     <ul>
-                                    <li>GitHub</li>
-                                    <li>AI/ML</li>
+                                        <li>GitHub</li>
+                                        <li>AI/ML</li>
                                     </ul>
                                 </li>
                                 <li>
                                     Microsoft Suite and similar applications:
                                     <ul>
-                                    <li>Word</li>
-                                    <li>PowerPoint</li>
-                                    <li>Excel</li>
+                                        <li>Word</li>
+                                        <li>PowerPoint</li>
+                                        <li>Excel</li>
                                     </ul>
                                 </li>
                                 <li>
                                     Other:
                                     <ul>
-                                    <li>Agile</li>
-                                    <li>English</li>
-                                    <li>Chinese (Mandarin)</li>
+                                        <li>Agile</li>
+                                        <li>English</li>
+                                        <li>Chinese (Mandarin)</li>
                                     </ul>
                                 </li>
                             </ul>
