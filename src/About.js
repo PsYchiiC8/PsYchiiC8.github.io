@@ -5,11 +5,13 @@ function About() {
     <div>
         <div className="App">
             <h1>About Me</h1>
+        </div>
 
+        <div>
             <table style={{ width: '100%', paddingTop: '10px' }}>
                 <tbody>
                     <tr>
-                        <td style={{ width: '40%', paddingLeft: '300px' }}>
+                        <td style={{ width: '40%', paddingLeft: '300px', paddingRight: '40px' }}>
                             <img className="profile" src="/Me.jpeg" height="42px" alt="LinkedIn" />
                         </td>
 
