@@ -4,12 +4,13 @@ function App() {
   return (
     <div className="body">
       
+    
       <table style={{ width: '100%'}}>
         <tbody>
           <tr>
             <td style={{ width: '33%'}}>
 
-              <h1 class="home">Welcome to My Developer Page!</h1>
+              <h1 className="home">Welcome to My Developer Page!</h1>
               
               <br/>
               
@@ -33,7 +34,7 @@ function App() {
             </td>
 
             <td style={{ width: '66%'}}>
-              <img src="/WLot.jpg" width='100%' maxWidth='1000px' alt="Kevin Huang"/>
+              <img src="/WLot.jpg" width='100%' maxWidth='1000px' alt="W Lot Sunset"/>
             </td>
           </tr>
         </tbody>
