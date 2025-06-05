@@ -4,14 +4,19 @@ function App() {
   return (
     <div className="body">
       
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     
-      <table style={{ width: '100%'}}>
+      <table style={{ width: '85%', margin: 'auto'}}>
         <tbody>
           <tr>
-            <td style={{ width: '33%'}}>
+            <td style={{ width: '35%',  paddingRight: '25px'}}>
 
               <h1 className="home">Welcome to My Developer Page!</h1>
               
+              <br/>
               <br/>
               
               <p className="home">"Learn as if you will live forever,
@@ -33,7 +38,7 @@ function App() {
 
             </td>
 
-            <td style={{ width: '66%'}}>
+            <td style={{ width: '65%'}}>
               <img src="/WLot.jpg" width='100%' maxWidth='1000px' alt="W Lot Sunset"/>
             </td>
           </tr>
