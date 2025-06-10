@@ -54,9 +54,29 @@ function Projects() {
             </td>
         </tr>
 
-        <tr>
+        <tr>  
+            <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
+                <b style={{fontSize: '20px'}}>CSE3150 Final Project- Flight Simulator</b>
 
+                <br></br>
+
+                <p style = {{ fontSize: '15px' }}>
+                    This project was done completely in C++ with a basic User Interface navigated using the keyboard in the terminal.
+                    Using various design patterns and concepts, a basic application to search for flights from one city/airport to another
+                    was made using Depth First Search. While there are some errors and may not fully function, the major components of the project
+                    to search for flights and scrolling through options still work. The majority of the User Interface was provided, but the functionalities were implemented myself.
+                </p>
+            </td>
         </tr>
+
+        <tr>
+            <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
+                <p>
+                    
+                </p>
+            </td>
+        </tr>
+        
     </table>
     </div>
   );
