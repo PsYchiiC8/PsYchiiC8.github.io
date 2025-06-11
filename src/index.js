@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import About from './About';
 import Projects from './projects';
-import Navbar from './Navbar';
+import Navbar from './navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
