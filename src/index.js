@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import About from './About';
-import Projects from './projects';
+import Projects from './Projects';
 import Navbar from './navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
