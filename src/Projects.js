@@ -13,7 +13,8 @@ function Projects() {
                 <br></br>
 
                 {/* TODO: Get dataset name and upload to github */}
-                <p style = {{ fontSize: '15px' }}>We finetuned a transformers model with the dataset TinyStories to generate small stories.
+                <p style = {{ fontSize: '15px' }}>
+                    We finetuned a transformers model with the dataset TinyStories to generate small stories.
                     The goal of the project was to help fix the lack of creativity in storytelling and to finetune a model to potentially 
                     assist in making more stories that could be more creative than what we typically encounter. 
                     <br></br>
@@ -46,25 +47,46 @@ function Projects() {
             </td>
         </tr>
 
-        <tr>
-            <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
-                <p>
-                    
-                </p>
-            </td>
-        </tr>
-
         <tr>  
             <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
-                <b style={{fontSize: '20px'}}>CSE3150 Final Project- Flight Simulator</b>
+                <b style={{fontSize: '20px'}}>CSE3102 Final Assignment- AWS Powered Auction Machine</b>
 
                 <br></br>
 
                 <p style = {{ fontSize: '15px' }}>
-                    This project was done completely in C++ with a basic User Interface navigated using the keyboard in the terminal.
-                    Using various design patterns and concepts, a basic application to search for flights from one city/airport to another
-                    was made using Depth First Search. While there are some errors and may not fully function, the major components of the project
-                    to search for flights and scrolling through options still work. The majority of the User Interface was provided, but the functionalities were implemented myself.
+                    This project implements a serverless auction platform using key AWS services. The frontend, 
+                    built with React and TypeScript, is hosted on Amazon S3 and connects to the backend via API Gateway.
+
+                    <br></br>
+                    <br></br>
+
+                    The backend is powered by AWS Lambda and Step Functions, handling requests such as user actions 
+                    and auction logic. All Lambda activity is logged in CloudWatch for visibility and debugging.
+
+                    <br></br>
+                    <br></br>
+
+                    We used DynamoDB to manage three core data models: <br></br>
+
+                    <ul>
+                        <li>Users – registered bidders and their balances</li>
+
+                        <li>Items – products listed for auction</li>
+
+                        <li>Bids – every bid placed by users</li>
+                    </ul>
+
+                    <br></br>
+
+                    Key features include: <br></br>
+
+                    <ul>
+                        <li>Bid Validation via Step Functions (checks user balance, auction status, and item existence)</li>
+
+                        <li>Auction Closing Logic, which finalizes the sale, deducts funds, assigns the winner, and locks the auction</li>
+
+                        <li>This setup demonstrates scalable, event-driven architecture using AWS services end-to-end.</li>
+                    </ul>
                 </p>
             </td>
         </tr>
