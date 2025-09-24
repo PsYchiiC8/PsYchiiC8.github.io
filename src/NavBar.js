@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav>
       <Link className="right" to="/about">About</Link>
-      <Link className="right" to="/projects">Projects</Link>
+      <Link className="right" to="/experiences">Experiences</Link>
       <Link className="right" to="/">Home</Link>
 
       <a className="left" href="https://www.linkedin.com/in/kevin-huang-002149231" target="_blank" rel="noopener noreferrer">

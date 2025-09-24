@@ -1,11 +1,43 @@
 import './App.css';
 
-function Projects() {
+function Experiences() {
   return (
     <div className="App">
-      <h1 className="projects">Projects</h1>
+      <h1 className="projects">Projects and Experiences</h1>
 
       <table style={{ width: '100%', textAlign: 'left', paddingTop: '10px' }}>
+        <tr>
+            <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px' }}>
+                <b style={{fontSize: '20px'}}>Senior Design Project - AromaKIT, Team Manager (August 2024-May 2025)</b>
+
+                <br></br>
+
+                <p style = {{ fontSize: '15px' }}>
+                    Senior Design is a year-long project similar to a Capstone Project where we work in teams of about 5 people.
+                    I had the opportunity to be the Team Manager for my team. Our project is called AromaKIT, founded by Dr Yusuf Ransome (our sponsor),
+                    a professor at Yale University with a focus on Social and Behavioral Sciences.
+                    <br></br>
+                    <br></br>
+
+                    The goal of the project is to create a device to help people with mental health issues and more through aromatherapy (smell), 
+                    projections (sight), and sound. The device will be controlled through a mobile application that we also made mock up designs for.
+
+                    <br></br>
+                    <br></br>
+
+                    When we first started the project, we had thought it would be a project where we make an app or website for people to use to control the device.
+                    However, when we met with our sponsor, we learned that the project would be more involved. We would need to continue developing the device as well.
+                    When we first received the device, it consisted of an Arduino Uno, a projection system, an LCD screen, and some buttons. We unfortunately did not have 
+                    any documentation from the previous teams that worked on the project and the majority of the group didn't have experience working with hardware.
+                    Ultimately, we split up into two groups, one working on the hardware and the other on the mobile application. As team manager, I found my team's strengths
+                    and their interests and assigned their tasks accordingly. We checked in as a team frequently to ensure the project is on track. In the end, we made some key 
+                    advances on the device, such as switching the microcontrolelr from the Arduino Uno to a Raspberry Pi Pico W for the Bluetooth support and writing the 
+                    documentation and code for the device, allowing future teams to pick up where we left off.
+                    
+                </p>
+            </td>
+        </tr>
+
         <tr>
             <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px' }}>
                 <b style={{fontSize: '20px'}}>Introduction to Transformers Final Project- Story Generation</b>
@@ -112,4 +144,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Experiences;
