@@ -34,28 +34,36 @@ function Projects() {
 
         <tr>  
             <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
-                <b style={{fontSize: '20px'}}>CSE3150 Final Project- Flight Simulator</b>
+                <b style={{fontSize: '20px'}}>CSE3150 Final Project- Flight Finder</b>
 
                 <br></br>
 
                 <p style = {{ fontSize: '15px' }}>
-                    This project was done completely in C++ with a basic User Interface navigated using the keyboard in the terminal.
-                    Using various design patterns and concepts, a basic application to search for flights from one city/airport to another
-                    was made using Depth First Search. While there are some errors and may not fully function, the major components of the project
-                    to search for flights and scrolling through options still work. The majority of the User Interface was provided, but the functionalities were implemented myself.
+                    Built entirely in C++, this project features a keyboard-navigated terminal UI for searching flights between cities or airports. The core functionality uses Depth-First Search (DFS) to explore flight paths.
+
+                    Key highlights:
+
+                    Implemented core logic for flight search and result navigation
+
+                    Applied design patterns to manage application structure
+
+                    UI was partially provided, but all search functionality and logic were self-implemented
+
+                    While not fully error-free, the main features—searching and browsing results—work as intended, demonstrating practical use of algorithms and C++ in a simple interactive app.
                 </p>
             </td>
         </tr>
 
         <tr>  
             <td style={{ width: '85%', paddingLeft: '30px', paddingRight: '50px', paddingBottom: '30px'  }}>
-                <b style={{fontSize: '20px'}}>CSE3102 Final Assignment- AWS Powered Auction Machine</b>
+                <b style={{fontSize: '20px'}}>CSE3250 Final Assignment- AWS Powered Auction Machine</b>
 
                 <br></br>
 
                 <p style = {{ fontSize: '15px' }}>
                     This project implements a serverless auction platform using key AWS services. The frontend, 
-                    built with React and TypeScript, is hosted on Amazon S3 and connects to the backend via API Gateway.
+                    built with React and TypeScript (provided), is hosted on Amazon S3 and connects to the backend via API Gateway 
+                    (specifically a REST API).
 
                     <br></br>
                     <br></br>
@@ -66,14 +74,14 @@ function Projects() {
                     <br></br>
                     <br></br>
 
-                    We used DynamoDB to manage three core data models: <br></br>
+                    We used DynamoDB to manage three core data tables: <br></br>
 
                     <ul>
                         <li>Users – registered bidders and their balances</li>
 
                         <li>Items – products listed for auction</li>
 
-                        <li>Bids – every bid placed by users</li>
+                        <li>Bids – every bid placed by users accessed by the itemId and sorted by the bid amount</li>
                     </ul>
 
                     <br></br>
